@@ -8,23 +8,32 @@ Option Explicit On
 Module Module1
 
     Sub Main()
+
         GetUserInput()
         TestValidateAndConvert()
 
     End Sub
 
+    'Code to test the ValidateAndConvert function
     Private Sub TestValidateAndConvert()
+        'number of successful tests
         Dim count As Integer = 0
+
+        'integer to passback result of ValidateAndConvert function
         Dim result As Integer = 0
         Dim pad As Integer = 15
         Dim report As String = ""
         Dim temp As String = ""
+
+        'data to passthrough ValidateAndConvert function and test
         Dim testData = New String(4, 4) {
             {"5", "2", "17", "8", "42"},
             {"6.7", "3.14", "5.4", "5.5", "0.125"},
             {"-21", "-32.1", "-4", "-4.5", "-4.4"},
             {"", "", "", "", ""},
             {"True", "False", "lOOlO", "9O2lO", "dog"}}
+
+        'loop all test values from testData
         For row = 0 To 4
             For column = 0 To 4
                 result = 0
@@ -61,6 +70,7 @@ Module Module1
             & CStr((count / 25) * 100) & "%")
     End Sub
 
+    'Get userinput from an inputbox
     Private Sub GetUserInput()
         Dim tempNum As Integer = 0
         Dim userMessage As String = "Please Enter A Number Between 0 and 15" _
@@ -75,7 +85,8 @@ Module Module1
         Loop Until userMessage = "Q" Or userMessage = ""
     End Sub
 
-
+    'Function to validate and convert a string to an integer and provide 
+    'a string feedback of how the conversion went
     Private Function ValidateAndConvert(ByVal convertThisString As String, ByRef toThisInteger As Integer) As String
         Dim message As String
         Try
@@ -88,25 +99,20 @@ Module Module1
                 message = "Must contain a number"
             End If
         End Try
-
         Return message$
     End Function
 
+    'Function to provide word form of values 0 - 15
     Private Function ShortAndSweet(ByVal numberFromZeroToFifteen As Integer) As String
         Dim stringArray As String() = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen"}
-        Dim returnMessage As String
         Select Case numberFromZeroToFifteen
-            Case 1 To 15
-                returnMessage = ($"Your Number is: {stringArray(numberFromZeroToFifteen)}")
-            Case < 1
-                returnMessage = ($"Your Number is: Too Low")
+            Case 0 To 15
+                Return ($"Your Number is: {stringArray(numberFromZeroToFifteen)}")
+            Case < 0
+                Return ($"Your Number is: Too Low")
             Case > 15
-                returnMessage = ($"Your Number is: Too High")
-            Case Else
-                returnMessage = "this shouldn't happen"
+                Return ($"Your Number is: Too High")
         End Select
-
-        Return returnMessage
     End Function
 
 End Module
