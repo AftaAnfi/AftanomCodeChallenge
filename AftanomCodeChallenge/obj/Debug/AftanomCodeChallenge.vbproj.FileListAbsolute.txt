@@ -1,0 +1,11 @@
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\bin\Debug\AftanomCodeChallenge.exe.config
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\bin\Debug\AftanomCodeChallenge.exe
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\bin\Debug\AftanomCodeChallenge.pdb
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\bin\Debug\AftanomCodeChallenge.xml
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.vbprojAssemblyReference.cache
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.Resources.resources
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.vbproj.GenerateResource.cache
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.vbproj.CoreCompileInputs.cache
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.exe
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.xml
+C:\Users\aftanom\Documents\GitHubRepos\AftanomCodeChallenge\AftanomCodeChallenge\AftanomCodeChallenge\obj\Debug\AftanomCodeChallenge.pdb
